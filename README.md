@@ -2,7 +2,7 @@
 
 Before push anything to the repo, please read, understand and follow the format below:
 
-|-Monday
+|-Monday  
 &nbsp;&nbsp;|-(Topic)-(Your_Name)  
 &nbsp;&nbsp;&nbsp;&nbsp;|- Question  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|- (Questioner_Question).js  
