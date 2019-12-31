@@ -1,4 +1,4 @@
-# JS Advance-1 
+# JS Advance-1
 
 ## Topics include
 

@@ -73,7 +73,7 @@ Person.prototype.greeting = function () {
 //again you should use prototype pattern
 
 function Male (name, age, gender='male') {
-  Person.call(name, age);
+  Person.call(this, name, age);
   this.gender = gender;
 }
 
