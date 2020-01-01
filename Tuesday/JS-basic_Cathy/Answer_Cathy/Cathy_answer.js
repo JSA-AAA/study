@@ -54,3 +54,45 @@ parseInt(‘3’, 2); // 基数为2，2进制数表示的数中，最大值小�
 	}
 如果b为0，则是。
 
+Plus:
+//1.注释后写出结果
+const a = [[1,2],[3,4]];
+const ws = new WeakSet(a);
+console.log(ws.size());//:error weakset无遍历
+ws.forEach(element => {
+  console.log(element)
+})//:error weakset无遍历
+
+const map = new Map();
+
+map.set(1,'a');
+map.set(1,'b');
+console.log(map.get(1))//:b
+
+const map2 = new Map();
+const k1 = ['a'];
+const k2 = ['b'];
+
+map.set(k1, 1);
+map.set(k2, 2);
+console.log(map.get(k1))//:1
+
+console.log(c); //:c
+var c = 'c';
+
+//reduce,map, filter, find, every, some, entries, etc 
+const arr = [11,22,23,24,25,26];
+console.log(arr.shift());//:11
+console.log(arr.reduce((a,b)=>a+b));//:120
+console.log(arr.find((n)=>n>22));//:23
+for (let [index, element] of arr.entries()){
+  console.log(index, element) //:0 22 1 23 2 24 3 25 4 26
+}
+console.log(arr.filter(x=>true))//:[22,23,24,25,26]
+console.log(arr.every(x => x==='22'))//:false
+console.log(arr.map(x=>1))//:[1,1,1,1,1]
+console.log(arr.some(x=> x>22))//:true
+
+//2.使用arrow function 的好处
+// 箭头函数写代码拥有更加简洁的语法；
+// 不会绑定this。
