@@ -11,3 +11,27 @@ e: line 12: 1, line 7: 2
 
 ## Q2
 1 5 6 3 8 7 2 4
+
+## Q3
+1 1 2
+
+## Q4
+```javascript
+async function fetchAllCounts(users) {
+  const promises = users.map(async username => {
+    return await fetchCountByName(username);
+  });
+  const counts = await Promise.all(promises);
+  console.log(counts.reduce((a, b)=> a+b));
+}
+
+// or
+async function fetchAllCounts(users) {
+  const counts = await users.reduce(async (a, b) => {
+    let prev = (await a) || 0;
+    let count = await fetchCountByName(b);
+    return count + prev;
+  }, Promise.resolve());
+  console.log(counts);
+}
+```
