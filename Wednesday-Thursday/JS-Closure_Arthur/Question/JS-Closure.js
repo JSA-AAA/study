@@ -28,9 +28,9 @@ function aaa() {
 //Question 2-a
 var arr = [];
 for (var i = 0; i < 3; i++) {
-    arr[i] = function () {
-        console.log(i);
-    };
+  arr[i] = function () {
+    console.log(i);
+  };
 }
 
 arr[0]();
@@ -47,3 +47,33 @@ arr[2]();
 
 
 
+//Question 3
+//Before doing this question please read the article I gave you in the list
+//Write the execution context of below function A() and B()
+function A() {
+  var a = 2;
+  function B() {
+    console.log(a)
+  }
+  return B;
+}
+
+//Your answer here
+//--------------------------------------------------------------------------------------
+ExecutionContext_A = {
+  //Write your answer to replace ....
+  variableObject: { .... },
+  this: thisValue,
+  Scope: [
+    ....
+  ]
+};
+
+ExecutionContext_B = {
+  //Write your answer to replace ....
+  variableObject: { .... },
+  this: thisValue,
+  Scope: [
+
+  ]
+};
