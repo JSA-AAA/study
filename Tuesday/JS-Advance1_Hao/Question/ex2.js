@@ -2,7 +2,7 @@
 //1. create a, b and c and make a equals 1, b equals 2, c equals 3
 const values = [1, [[2], 3]];
 //code here
-
+const [a, [[b], c]] = values;
 
 console.log(a, b, c);
 
@@ -14,12 +14,12 @@ const temp = {
   name: 'Bob'
 }
 
-function training(name, organization){
+function training(name, organization) {
   console.log(`this is ${name} from ${organization}`)
 }
 
 // code here
-
+const { org: organization = 'jsa', name } = temp;
 training(name, organization);
 
 
@@ -28,18 +28,22 @@ training(name, organization);
 // 3. use this
 const person1 = {
   name: "cathy",
-  greeting: function() {
+  greeting: function () {
     console.log(this.name);
   }
 }
 
 // define person2's greeting function
-const person2 = { name: 'hao', __________ }; 
+const person2 = {
+  name: 'hao', greeting: function () {
+    console.log(this.name);
+  }
+};
 
 const name = 'arthur';
 // print out 'arthur' with greeting function
 // hint: use apply
-
+person1.greeting.apply({ name })
 
 person1.greeting();
 person2.greeting();
@@ -48,12 +52,12 @@ person2.greeting();
 function f() {
   console.log(this.a);
 }
-f(); // 
+f(); // undefined
 
-const g = f.bind({a: 'hello'});
-g(); // 
+const g = f.bind({ a: 'hello' });
+g(); // hello
 
-const h = g.bind({a: 'world'});
-h(); // 
+const h = g.bind({ a: 'world' });
+h(); // hello
 
-h.apply({a: 'world'}); //
+h.apply({ a: 'world' }); //hello
