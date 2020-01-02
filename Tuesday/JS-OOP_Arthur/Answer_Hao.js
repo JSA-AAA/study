@@ -126,6 +126,7 @@ var o = new Object();
 o.__proto__ = A.prototype;
 // 3. 更改构造器函数内部this，将其指向新创建的空对象
 A.call(o);
+return o;
 
 // 作者：tokenl
 // 链接：https://juejin.im/post/5a379d78f265da43305e91bd
