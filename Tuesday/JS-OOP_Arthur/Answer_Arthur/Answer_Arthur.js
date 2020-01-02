@@ -94,3 +94,58 @@ Person.prototype = {
 
 let friend = new Person();
 friend.job;
+
+
+//Question 5
+//Please show the complete result
+function Parent(name) {
+  this.name = name;
+}
+
+let p = new Parent('Peter');
+
+console.log(Parent.prototype);
+//Parent {
+//   constructor => Parent(name)
+//   __proto__=> Object
+// }
+
+console.log(p.prototype);
+// Undefined----instance do not have prototype property 
+
+
+
+console.log(Parent.__proto__);
+//Function.prototype
+//Parent is our function to create object, its __proto__ will point to 
+//father of every function which is Function.
+
+
+
+console.log(p.__proto__);
+//Parent.prototype
+//which is 
+//Parent {
+//   constructor => Parent(name)
+//   __proto__=> Object
+// }
+
+
+
+
+
+//Question 6
+//You have to read the article about new operator I gave you
+// function Animal(name){
+//   this.name = name;
+// }
+// let cat = new Animal("cat");
+
+
+//this is not a real world code, but can use code to explain your understanding
+function newOperator(name) {
+  var o = {};
+  o.__proto__ = Animal.prototype;
+  A.call(o, name);
+  return o;
+}

@@ -94,3 +94,32 @@ Person.prototype = {
   job: "Software Engineer"
 }
 friend.job;
+
+
+//Question 5
+//You have to read the article about prototype I gave you
+//give the result
+function Parent(name) {
+  this.name = name;
+}
+
+let p = new Parent('Peter');
+
+console.log(Parent.prototype); //
+console.log(p.prototype); //
+console.log(Parent.__proto__);//
+console.log(p.__proto__); //
+
+
+//Question 6
+//You have to read the article about new operator I gave you
+// function Animal(name){
+//   this.name = name;
+// }
+// let cat = new Animal("cat");
+
+
+//this is not a real world code, but can use code to explain your understanding
+function newOperator(name){
+  //write what happen inside new operator 
+}
