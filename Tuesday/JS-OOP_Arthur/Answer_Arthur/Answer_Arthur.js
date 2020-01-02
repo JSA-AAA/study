@@ -73,7 +73,12 @@ Person.prototype.greeting = function () {
 //Furthermore, Male class will have one more property which is gender: male. 
 //again you should use prototype pattern
 
-Person.prototype.gender = 'male';
+function Male (name, age, gender='male') {
+  Person.call(this, name, age);
+  this.gender = gender;
+}
+
+Male.prototype = new person();
 
 
 
