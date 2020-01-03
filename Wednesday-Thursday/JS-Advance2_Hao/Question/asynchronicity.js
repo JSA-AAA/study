@@ -4,6 +4,7 @@
 let x = 0;
 async function test() {
   // code here
+  
   console.log(x); 
 }
 
@@ -11,11 +12,11 @@ test();
 x += 1;
 console.log(x); 
 
-// a: x += await 2; // result: 7:1     12:2
-// b: x += 2; // result: 7:2    12:3
-// c: x = await 2 + x; // result: 7:1     12:3
-// d: x = await (2 + x); // result:  7:1     12:3
-// e: x = await x + 2; // result:  7:1     12:2
+// a: x += await 2; // result:
+// b: x += 2; // result:
+// c: x = await 2 + x; // result:
+// d: x = await (2 + x); // result:
+// e: x = await x + 2; // result: 
 
 //---------------------------------------------------------------------  
 
