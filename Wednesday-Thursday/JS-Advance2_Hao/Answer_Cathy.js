@@ -43,3 +43,53 @@ new Promise(function(resolve, reject){
 
 fn();
 console.log(8);
+// 3. rewrite below promise chain to use async/await
+let promise = new Promise(function(resolve, reject) {
+  setTimeout(() => resolve(1), 500);
+});
+
+promise.then(function(result) {
+  console.log(result); //
+  return result * 2;
+});
+
+promise.then(function(result) {
+  console.log(result); //
+  return result * 2;
+}).then(function(result) {
+  console.log(result);  //
+  return result * 2;
+});
+
+//----------
+
+async function demo() {
+  let result1 = await result*2
+  let result2 = await result1*2
+  let result3 = await result2*2
+  return result3;
+}
+demo().then(result =>{
+  console.log(result);
+})
+
+//--------------------------------------------------------------------------
+// 4. get total counts
+// write an async to print out total number of count 
+const DATA = {
+  hao: { count: 100 },
+  cathy: { count: 200 },
+  arthur: { count: 300 }
+}
+
+const fetchCountByName = async(userName) => await DATA[userName].count;
+ // write fetchAllCount here
+ async function fetchAllCounts(){
+   let user1 = fetchCountByName('hao');
+   let user2 = fetchCountByName('cathy')+user1;
+   let user3 = fetchCountByName('arthur')+user2;
+   return user3;
+ }
+
+fetchAllCounts(Object.keys(DATA)); // this shall print out the total count of 600
+
