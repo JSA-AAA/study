@@ -15,6 +15,27 @@ e: line 12: 1, line 7: 2
 ## Q3
 1 1 2
 
+```javascript
+let promise = new Promise(function(resolve, reject) {
+  setTimeout(() => resolve(1), 500);
+});
+
+(async () => {
+  let result = await promise
+  console.log(result);
+  return result * 2
+})();
+
+(async () => {
+  let result = await promise;
+  console.log(result);
+  result *= 2
+  console.log(result);
+  return result * 2;
+})();
+
+```
+
 ## Q4
 ```javascript
 async function fetchAllCounts(users) {

@@ -47,7 +47,8 @@ console.log(8);
 
 //---------------------------------------------------------------------  
 
-// 3. rewrite below promise chain to use async/await
+// 3. give log result of below code
+// and rewrite below promise chain to use async/await
 
 
 let promise = new Promise(function(resolve, reject) {
