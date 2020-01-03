@@ -1,5 +1,5 @@
 //1.why use React?
-The main purpose of React is to be fast, scalable, and simple.
+//The main purpose of React is to be fast, scalable, and simple.
 
 //2.请在_______处填上适合的生命周期函数名。
 class Hello extends React.Component {
@@ -9,7 +9,7 @@ class Hello extends React.Component {
     this.state = { opacity: 1.0 };
   }
 
-  ____________() {
+  _____componentDidMount_______() {
     this.timer = setInterval(function () {
       var opacity = this.state.opacity;
       opacity -= .05;
@@ -87,8 +87,9 @@ export class Test extends React.Component {
       </div>
     )
   }
+//Did we suppose click the button, if not then we only can say 2
 
-//4.写出执行以后的结果：
+//4.写出执行以后的结果： 2
 export class Test extends React.Component {
   constructor(props) {
     super(props);
@@ -121,30 +122,33 @@ export class Test extends React.Component {
 }
 
 //5.为什么虚拟dom会提高性能?
-//6.diff运作原理, 并指出以下是哪种类型的diff？
+// 将页面变化先缓存在虚拟dom然后与真实dom比较，最后只渲染变化部分，而非全局重新渲染
 
-        ----R-----
-        |         |    
-        A         C
-        |         |
-        B         D  
+//6.diff运作原理
+// Tree Diff 层级的比较
 
-            |
-            |
-            ^
+// Component Diff 组件比较
+// 同类型组件（即：两节点是同一个组件类的两个不同实例）
+// 若组件相同，则继续按照层级比较其 Virtual DOM 的结构。
+// 若组件 A 转变为组件 B，但是组件 A 和组件 B 渲染出来的 Virtual DOM 没有任何变化(即，子节点的顺序、状态state等，都未发生变化)，如果开发者能够提前知道这一点，那么可以省下大量 Diff 的时间。React 中，允许用户通过shouldComponentUpdate()来判断该组件是否需要进行diff算法分析。
 
-        ----R-----
-        |         |    
-        A         E
-        |         |
-        B         D
+// 不同类型组件
+// 直接判断为 dirty component，继而替换整个组件的所有内容。
+
+// Element Diff 元素的比较（同一层级同一父元素下的节点集合，进行比较）
+// 当 DOM 处于同一层级时，Diff 提供三个节点操作，即 删除（REMOVE_NODE）、插入（INSERT_MARKUP）、移动（MOVE_EXISTING）。
 
 //7.Router和Route区别
+// Router包裹route,route用来定向走向
+
 //8.useState, useEffect的作用
+// function component中state的替代者，管理component的状态变化
+// useEffect 当component需要在某个阶段实现render，useeffect可以做到。
+// 生命周期的替代者
 
-//9.以下两个函数是否正确：（ ）（ ）
+//9.以下两个函数是否正确：（ x）（ x）
 
-
+//setState并不会立刻改变状态值，无法保证对setState的调用进行同步操作
 function Switch({ isSwitchEnabled }) {
   if (isSwitchEnabled) {
     // Bad
@@ -154,6 +158,7 @@ function Switch({ isSwitchEnabled }) {
 }
 
 
+//same reason as above, better use function as parameter
 function Switch() {
   let on = false;
   let setOn = () => { };
@@ -168,23 +173,4 @@ function Switch() {
       Enable light switch state
     </button>
   );
-}
-
-
-
-
-var a = {
-  a1: {
-    name: 50,
-    f: function () {
-      console.log(this);
-      console.log(this.name);
-      (() => {
-        console.log('inside');
-        
-        console.log(this);
-        console.log(this.name)
-      })();
-    }
-  }
 }
