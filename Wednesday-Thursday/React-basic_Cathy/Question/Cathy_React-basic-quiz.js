@@ -1,13 +1,14 @@
 //1.why use React?
+The main purpose of React is to be fast, scalable, and simple.
 
 //2.请在_______处填上适合的生命周期函数名。
 class Hello extends React.Component {
- 
+
   constructor(props) {
-      super(props);
-      this.state = {opacity: 1.0};
+    super(props);
+    this.state = { opacity: 1.0 };
   }
- 
+
   ____________() {
     this.timer = setInterval(function () {
       var opacity = this.state.opacity;
@@ -20,102 +21,102 @@ class Hello extends React.Component {
       });
     }.bind(this), 100);
   }
- 
-  render () {
+
+  render() {
     return (
-      <div style={{opacity: this.state.opacity}}>
+      <div style={{ opacity: this.state.opacity }}>
         Hello {this.props.name}
       </div>
     );
   }
 }
- 
+
 ReactDOM.render(
-  <Hello name="world"/>,
+  <Hello name="world" />,
   document.body
 );
 
 //3. 写出代码执行之后count的数值：
 
 import React from 'react';
- 
+
 export class Test extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            count: 0
-            
-        };
-    }
-    componentWillMount() {
-        let me = this;
-        me.setState({
-            count: me.state.count + 2
-        });
-        me.setState({
-            count: me.state.count + 1
-        });
-    }
-    componentDidMount() {
-        let me = this;
-        me.setState({
-            count: me.state.count + 2
-        });
-        me.setState({
-            count: me.state.count + 1
-        });
-    }
- 
-    onClick() {
-        let me = this;
-        me.setState({
-            count: me.state.count + 1
-        });
-        me.setState({
-            count: me.state.count + 1
-        });
-    }
- 
-    render() {
-        console.log(this.state.count);
-        return (
-            <div>
-                <h1>{this.state.count}</h1>
-                <input type="button" value="点击我" onClick={this.onClick.bind(this)} /><br />
-                <br />
-            </div>
-        )
-    }
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 0
+
+    };
+  }
+  componentWillMount() {
+    let me = this;
+    me.setState({
+      count: me.state.count + 2
+    });
+    me.setState({
+      count: me.state.count + 1
+    });
+  }
+  componentDidMount() {
+    let me = this;
+    me.setState({
+      count: me.state.count + 2
+    });
+    me.setState({
+      count: me.state.count + 1
+    });
+  }
+
+  onClick() {
+    let me = this;
+    me.setState({
+      count: me.state.count + 1
+    });
+    me.setState({
+      count: me.state.count + 1
+    });
+  }
+
+  render() {
+    console.log(this.state.count);
+    return (
+      <div>
+        <h1>{this.state.count}</h1>
+        <input type="button" value="点击我" onClick={this.onClick.bind(this)} /><br />
+        <br />
+      </div>
+    )
+  }
 
 //4.写出执行以后的结果：
 export class Test extends React.Component {
   constructor(props) {
-      super(props);
-      this.state = {
-          count: 0
-          
-      };
+    super(props);
+    this.state = {
+      count: 0
+
+    };
   }
-componentWillMount() {
-  let me = this;
-  setTimeout(() => {
+  componentWillMount() {
+    let me = this;
+    setTimeout(() => {
       me.setState({
-          count: me.state.count + 1
+        count: me.state.count + 1
       });
       me.setState({
-          count: me.state.count + 1
+        count: me.state.count + 1
       });
-  }, 0);
-}
-render() {
-  console.log(this.state.count);
-  return (
+    }, 0);
+  }
+  render() {
+    console.log(this.state.count);
+    return (
       <div>
-          <h1>{this.state.count}</h1>
-          <input type="button" value="点击我" onClick={this.onClick.bind(this)} /><br />
-          <br />
+        <h1>{this.state.count}</h1>
+        <input type="button" value="点击我" onClick={this.onClick.bind(this)} /><br />
+        <br />
       </div>
-  )
+    )
   }
 }
 
@@ -155,7 +156,7 @@ function Switch({ isSwitchEnabled }) {
 
 function Switch() {
   let on = false;
-  let setOn = () => {};
+  let setOn = () => { };
 
   function enableSwitch() {
     // Bad
@@ -169,3 +170,21 @@ function Switch() {
   );
 }
 
+
+
+
+var a = {
+  a1: {
+    name: 50,
+    f: function () {
+      console.log(this);
+      console.log(this.name);
+      (() => {
+        console.log('inside');
+        
+        console.log(this);
+        console.log(this.name)
+      })();
+    }
+  }
+}

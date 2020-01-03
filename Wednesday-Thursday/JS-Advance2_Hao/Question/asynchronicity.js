@@ -11,11 +11,11 @@ test();
 x += 1;
 console.log(x); 
 
-// a: x += await 2; // result: 
-// b: x += 2; // result: 
-// c: x = await 2 + x; // result: 
-// d: x = await (2 + x); // result: 
-// e: x = await x + 2; // result: 
+// a: x += await 2; // result: 7:1     12:2
+// b: x += 2; // result: 7:2    12:3
+// c: x = await 2 + x; // result: 7:1     12:3
+// d: x = await (2 + x); // result:  7:1     12:3
+// e: x = await x + 2; // result:  7:1     12:2
 
 //---------------------------------------------------------------------  
 
@@ -81,5 +81,8 @@ const fetchCountByName = async(userName) => await DATA[userName].count;
  // write fetchAllCount here
 
 fetchAllCounts(Object.keys(DATA)); // this shall print out the total count of 600
+<<<<<<< HEAD
 
 //addition: 1 hello 2 world 3
+=======
+>>>>>>> rebase from master
