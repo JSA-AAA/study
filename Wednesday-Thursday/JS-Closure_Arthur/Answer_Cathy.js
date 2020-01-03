@@ -1,6 +1,5 @@
-
 //Question 1
-//Which type belongs to Closure feature: [ ]
+//Which type belongs to Closure feature: [d ]
 a).
 let a = 1;
 function aaa() {
@@ -38,13 +37,19 @@ arr[0]();
 arr[1]();
 arr[2]();
 //what is the output
+3 3 3
 
 
 
 //Question 2-b
 //Modify the code and add closure feature into above code
 
-
+var arr = [];
+for (var i = 0; i < 3; i++) {
+  arr[i] = function () {
+    console.log(i);
+  };
+}
 
 
 
@@ -63,18 +68,18 @@ function A() {
 //--------------------------------------------------------------------------------------
 ExecutionContext_A = {
   //Write your answer to replace ....
-  variableObject: { .... },
-  this: thisValue,
+  variableObject: { a=2, B: function B },
+  this: window,
   Scope: [
-    ....
+   global window
   ]
 };
 
 ExecutionContext_B = {
   //Write your answer to replace ....
-  variableObject: { .... },
-  this: thisValue,
+  variableObject: { null },
+  this: function A,
   Scope: [
-
+    function A
   ]
 };

@@ -92,3 +92,46 @@ Person.prototype = {
 }
 let friend = new Person();
 friend.job;
+
+
+//Question 5
+//You have to read the article about prototype I gave you
+//give the result
+function Parent(name) {
+  this.name = name;
+}
+
+let p = new Parent('Peter');
+
+console.log(Parent.prototype); // { constructor: f}
+console.log(p.prototype); // error
+console.log(Parent.__proto__);// constructor?
+console.log(p.__proto__); // Parent.prototype
+
+
+//Question 6
+//You have to read the article about new operator I gave you
+// function Animal(name){
+//   this.name = name;
+// }
+// let cat = new Animal("cat");
+
+
+//this is not a real world code, but can use code to explain your understanding
+function newOperator(name){
+  //write what happen inside new operator 
+// 1. 首先创建一个空对象
+var o = new Object();
+// 2. 将空对象的原型赋值为构造器函数的原型
+o.__proto__ = A.prototype;
+// 3. 更改构造器函数内部this，将其指向新创建的空对象
+A.call(o);
+return o;
+
+// 作者：tokenl
+// 链接：https://juejin.im/post/5a379d78f265da43305e91bd
+// 来源：掘金
+// 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+}
+
