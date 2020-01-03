@@ -120,7 +120,24 @@ render() {
 }
 
 //5.为什么虚拟dom会提高性能?
-//6.diff运作原理
+//6.diff运作原理, 并指出以下是哪种类型的diff？
+
+        ----R-----
+        |         |    
+        A         C
+        |         |
+        B         D  
+
+            |
+            |
+            ^
+
+        ----R-----
+        |         |    
+        A         E
+        |         |
+        B         D
+
 //7.Router和Route区别
 //8.useState, useEffect的作用
 
