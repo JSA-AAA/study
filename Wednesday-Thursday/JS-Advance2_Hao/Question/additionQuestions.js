@@ -16,3 +16,4 @@ setTimeout(() => {
 test();
 x += 1;
 console.log(x);
+

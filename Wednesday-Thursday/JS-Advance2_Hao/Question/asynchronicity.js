@@ -81,3 +81,5 @@ const fetchCountByName = async(userName) => await DATA[userName].count;
  // write fetchAllCount here
 
 fetchAllCounts(Object.keys(DATA)); // this shall print out the total count of 600
+
+//addition: 1 hello 2 world 3
