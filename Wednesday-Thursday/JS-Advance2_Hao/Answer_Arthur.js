@@ -55,15 +55,15 @@ let promise = new Promise(function (resolve, reject) {
 });
 
 promise.then(function (result) {
-  console.log(result); //
+  console.log(result); //1
   return result * 2;
 });
 
 promise.then(function (result) {
-  console.log(result); //
+  console.log(result); //1
   return result * 2;
 }).then(function (result) {
-  console.log(result);  //
+  console.log(result);  //2
   return result * 2;
 });
 
@@ -79,7 +79,6 @@ async function q3(promise) {
   let result3 = await result2 * 2;
   return result3;
 }
-
 
 
 
@@ -101,4 +100,5 @@ async function fetchAllCounts(e) {
   const counts = await Promise.all(promiseList);
   console.log(counts.reduce((a, b) => a + b));
 }
+
 fetchAllCounts(Object.keys(DATA)); // this shall print out the total count of 600
