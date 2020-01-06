@@ -15,3 +15,5 @@
  - [Node.js中文版](http://nodejs.cn/api/)
  - [掘金：Node.js EventEmitter解读](https://juejin.im/post/5b0189fe51882567161ad8ef)
  - [掘金：Node.js process解读](https://juejin.im/post/5b0e97bef265da0914072515)
+ - [ECMAScript Modules](https://www.html.cn/archives/10283)
+ - [NodeJS 事件系统详解](https://blog.csdn.net/zccz14/article/details/51463715)
