@@ -44,6 +44,11 @@
 
 ---
 
+##**Discussion**
+
+- point 1
+
+---
 ## **Exercises** (Optional)
 
 - [console and events](assets/node-1_questions.js)
