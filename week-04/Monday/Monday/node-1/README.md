@@ -16,13 +16,14 @@
 - [ ] Able to use common console functions
 - [ ] Understand Node.js EventEmitter api
 - [ ] how to register events?
-- [ ] Understand Node event loop and the excution order
+- [ ] Export/Import type
+- [ ] Understand Node event loop and the execution order
 
 ## **Key Concepts**
 
 - Node.js
 - events
-- eventloop phases
+- event loop phases
 
 ## **Materials / Study Note**
 
@@ -56,12 +57,13 @@
 
 ## **Question Encountered**
 
->*Note: check after resolved by youself or during discussion*
+>*Note: check after resolved by yourself or during discussion*
 
 - [ ] how to receive return value of a event callback function?
 - [ ] what is the value of `this` in event callbacks?
 - [ ] what are the differences between setImmediate and setTimeout?
 - [ ] node.js can have multiple instances of EventEmitter, and runs in one process, but process is also a instance of EventEmitter - confusing
+- [ ] In NodeJS event loop, when poll step back to timer step?
 
 ## **Discussion**
 
