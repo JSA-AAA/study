@@ -64,7 +64,6 @@
 - [ ] what are the differences between setImmediate and setTimeout?
 - [ ] node.js can have multiple instances of EventEmitter, and runs in one process, but process is also a instance of EventEmitter - confusing
 - [ ] In NodeJS event loop, when poll step back to timer step?
-- [ ] How I/O in node.js works?
 
 ## **Discussion**
 
