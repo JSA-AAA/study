@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      #winning {
+        background-color: red;
+        border: 10px solid yellow;
+      }
+      
+      .better {
+        background-color: gray;
+        border: 10px solid pink !important;
+      }
+      
+      p {
+        background-color: blue;
+        color: white;
+        padding: 5px;
+      }
+    </style>
+  </head>
+
+  <body>    
+    <p class="better">This is a paragraph.</p>
+    // what will be the real border color?
+    // how to force it to be green / yellow?
+    <p class="better" id="winning" style="border: 10px solid green">hello!</p>
+  </body>
+</html>

@@ -15,7 +15,7 @@
 - 长度单位：px, vw, vh, em, rem
 - 实现居中的方法
 
-> suggested study order:
+> **Suggested study order**:
 >
 > - Box Model
 > - display, flex, position
@@ -28,8 +28,8 @@
 
 ## **Goal**
 
-- [ ] effect/usage of each sub-topic
 - [ ] how css works in webpage?
+- [ ] effect/usage of each sub-topic
 - [ ] what is box model
 - [ ] position values and usage
 - [ ] the differences between inline and block
@@ -41,7 +41,7 @@
 - [ ] css 选择器的优先级的规则
 - [ ] 长度单位 vw，vh，em，rem 是什么，什么时候可以用 rem（calc 是什么）
 - [ ] 媒体查询
-  - [ ]可以用于区分设备吗
+  - [ ] 可以用于区分设备吗
   - [ ] 写个例子，横屏显示红色文字，竖屏显示绿色文字
   - [ ] 写个例子，浏览器宽度大于 1000 像素时显示红色文字，小于 1000 显示绿色文字
 
@@ -53,7 +53,7 @@
 - flexBox
 - display
 - center (horizontal, vertical, both)
-- selector priority
+- selector specificity(优先级)
 - position
 
 ## **Materials / Study Note**
@@ -142,6 +142,21 @@
       1、和其他元素都在一行上；
       2、元素的高度、宽度、行高以及顶和底边距都可设置。
 
+1. [**How CSS works**](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
+
+![how css works](assets/how_css_works.svg)
+
+2. **Box Model**
+
+3. **Flex**
+
+4. **center**
+
+5. **Selector and specificity**
+   - [Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
+   - CSS selector specificity [scoring]: !important > inline style > id > class > element
+
+6. **position**
 
 ## **Question Encountered**
 
@@ -149,6 +164,7 @@
 
 - [ ] Display inline doest not have effect on any tag inside?
 - [ ] Flex 布局以后，子元素的 float、clear 和 vertical-align 属性将失效?
+- [ ] What happens if a browser encounters CSS it doesn't understand?
 
 ## **Discussion**
 
