@@ -148,6 +148,8 @@
   > answer: 
   > - visibility:hidden可以隐藏某个元素，但隐藏的元素仍需占用与未隐藏之前一样的空间。
   > - display:none可以隐藏某个元素，且隐藏的元素不会占用任何空间。
+- [ ] Display inline doest have effect on any tag inside?
+- [x] Flex 布局以后，子元素的 float、clear 和 vertical-align 属性将失效? - 经测试，是的
 
 ## **Discussion**
 
