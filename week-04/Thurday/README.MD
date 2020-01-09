@@ -35,6 +35,9 @@
 - [ ] GC flow
 
 ## **Question need to solve**
+1. What will cause memory leak
+
+
 
 ## **Key Concepts**
 
@@ -49,7 +52,8 @@
 - [Browser render flow](https://juejin.im/post/5a8e242c5188257a6b060000)
 - [DocumentFragment文档](https://developer.mozilla.org/zh-CN/docs/Web/API/DocumentFragment)
 - [Why documentFragment can improve performance](https://blog.csdn.net/aitangyong/article/details/50351400)
-- [Basic event delegation](https://zhuanlan.zhihu.com/p/26536815)
+- [Basic event delegation(Can skip jquery part)](https://zhuanlan.zhihu.com/p/26536815)
+- [GC 详解](https://juejin.im/post/5b684f30f265da0f9f4e87cf)
 
 ## **Question Encountered**
 
