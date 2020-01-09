@@ -1,4 +1,4 @@
-# **CSS**
+# **Browser & JS performance**
 
 ## **Required Topics**
 
