@@ -65,6 +65,10 @@
 - [Document Fragment使用方法](https://blog.csdn.net/Allenyhy/article/details/82903121)
 - 内存泄漏的识别方法: 如果连续五次垃圾回收之后,内存占用一次比一次大,就有内存泄漏.这就要求实时查看内存占用.
 - WeakSet 和 WeakMap 在GC中的应用：最好能有一种方法,在新建引用的时候就声明,哪些引用必须手动清除,哪些引用可以忽略不计,当其他引用消失以后,垃圾回收机制就可以释放内存.这样就能大大减轻程序员的负担,你只要清除主要引用就可以了.ES6 考虑到了这一点,推出了两种新的数据结构:WeakSet和 WeakMap.它们对于值的引用都是不计入垃圾回收机制的,表示这是弱引用.
+- [MDN: DocumentFragement Usage & Example](https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment#Usage_notes)
+
+- [Event Delegation example](https://javascript.info/event-delegation#delegation-example-actions-in-markup)
+  - can also try the [tasks](https://javascript.info/event-delegation#tasks) provided in the blog
 
 ## **Question Encountered**
 
