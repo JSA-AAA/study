@@ -158,6 +158,8 @@
 
 6. **position**
 
+7. **[CSS realtive length units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#Relative_length_units)**
+  
 ## **Question Encountered**
 
 > _Note: check after resolved by yourself or during discussion_
@@ -165,6 +167,8 @@
 - [ ] Display inline doest not have effect on any tag inside?
 - [ ] Flex 布局以后，子元素的 float、clear 和 vertical-align 属性将失效?
 - [ ] What happens if a browser encounters CSS it doesn't understand?
+- [ ] what does root mean in rem? can we rebind rem?
+- [ ] 
 
 ## **Discussion**
 
