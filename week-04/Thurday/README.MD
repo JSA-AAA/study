@@ -46,13 +46,15 @@
 
 ## **Materials / Study Note**
 
-- 
-
+- [Browser render flow](https://juejin.im/post/5a8e242c5188257a6b060000)
+- [DocumentFragment文档](https://developer.mozilla.org/zh-CN/docs/Web/API/DocumentFragment)
+- [Why documentFragment can improve performance](https://blog.csdn.net/aitangyong/article/details/50351400)
+- [Basic event delegation](https://zhuanlan.zhihu.com/p/26536815)
 
 ## **Question Encountered**
 
 > _Note: check after resolved by yourself or during discussion_
-
+ 
 
 ## **Discussion**
 
