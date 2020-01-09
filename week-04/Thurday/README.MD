@@ -70,6 +70,7 @@
 - [Event Delegation example](https://javascript.info/event-delegation#delegation-example-actions-in-markup)
   - can also try the [tasks](https://javascript.info/event-delegation#tasks) provided in the blog
 
+- [JS Memory Leak and how to find and avoid](https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/)
 ## **Question Encountered**
 
 > _Note: check after resolved by yourself or during discussion_
