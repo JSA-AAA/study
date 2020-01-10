@@ -70,7 +70,7 @@
 - [Event Delegation example](https://javascript.info/event-delegation#delegation-example-actions-in-markup)
   - can also try the [tasks](https://javascript.info/event-delegation#tasks) provided in the blog
 
-- [JS Memory Leak and how to find and avoid](https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/)
+- [JS Memory Leak and how to avoid](https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/)
 ## **Question Encountered**
 
 > _Note: check after resolved by yourself or during discussion_
@@ -79,6 +79,7 @@
 
 > 什么是内存泄漏?
 - answer: 程序的运行需要内存,只要程序提出要求,操作系统或者运行是就必须供给内存.对于持续运行的服务进程,必须及时释放内存,否则,内存占用越来越高,轻则影响系统性能,重则导致进程崩溃.不再用到的内存,没有及时释放,就叫做内存泄漏.
+- [ ] Can we explicitly or programmatically trigger garbage collection in JavaScript?
 
 ## **Discussion**
 
