@@ -35,8 +35,15 @@
 - [ ] GC flow
 
 ## **Question need to solve**
-1. What will cause memory leak
-
+1. 可以用自己的语言解释reflow/repaint。 如果可以解释浏览器渲染的流程则更好。
+2. 可以用自己的语言解释JS的GC流程
+3. 用documentFragment有什么好处？
+4. 用事件委托有什么好处？如何实现？举个简单例子
+5. 为什么建议把css引用放在head，而script标签放在body底部？
+6. 除了减少重绘重排，还有什么性能优化方法？（如首屏加载性能）
+7. 有什么属性只要访问就会造成重绘或重排？ 
+8. 实现一个会造成内存泄漏的例子，并解释原因
+9. What will cause memory leak
 
 
 ## **Key Concepts**
