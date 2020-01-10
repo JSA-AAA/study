@@ -4,9 +4,9 @@
 
 >*Note: important topics are in **bold***
 
-- methods, get, post, put, delete, options 
-- statusCode， 1xx, 2xx, 3xx, 4xx, 5xx. 200, 404, 500, 304 
-- restful（什么样算符合restful ，eg.这个API是否符合restful） 
+- methods, get, post, put, delete, options
+- statusCode， 1xx, 2xx, 3xx, 4xx, 5xx. 200, 404, 500, 304
+- restful(什么样算符合restful ，eg.这个API是否符合restful)
 
 ## **Goal**
 - 发送请求的用户通过了身份验证，但是没有当前操作的权限时，应该返回什么状态码？
@@ -32,6 +32,7 @@
 
 ## **Materials / Study Note**
 
+- [MDN: HTTP requests methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 - [阮一峰：理解RESTful架构](http://www.ruanyifeng.com/blog/2011/09/restful.html)
 - [阮一峰：RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
 
@@ -56,7 +57,7 @@
     - 3. updateUserDetail和getUserDetail不需要.
 - what does it mean when we say a http method is safe, indempotent, cacheable
   - 
-
-
+- [ ] what kind of responses are safe
+- [ ] what kind of responses are cachable
 
 ## **Exercises** ( Optional )
