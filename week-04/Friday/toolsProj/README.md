@@ -2,7 +2,7 @@
 
 ## **Required Topics**
 
->**Required to create and configure a React project without create-react-app**
+>**Required to create and configure a React app without create-react-app**
 
 ### **Must Include**
 
@@ -11,20 +11,32 @@
 - webpack
 - eslint
 - jest, enzyme
-- express
+- express(for study only, no trequired in project)
+
+> **Suggested order**:
+>
+> - init JS project
+> - add later, not totally sure about the best practice procedures now
 
 ## **Goal**
 
-- [ ] package.json - understand dependencies vs devDependencies vs peerDependencies
+- [ ] understand dependencies, devDependencies, peerDependencies
+- [ ] follow the logic and steps of create a react app, study required dependencies on each step
 
 ## **Question need to solve**
+
+- what is babel, webpack used for and how to use them?
+- how to add eslint check for JS project
 
 ## **Key Concepts**
 
 ## **Materials / Study Note**
 
-- [阮一峰：理解RESTful架构](http://www.ruanyifeng.com/blog/2011/09/restful.html)
-- [阮一峰：RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
+- react app setup series
+  - [init JS project with npm](https://www.robinwieruch.de/javascript-project-setup-tutorial)
+  - [setup webpack proj](https://www.robinwieruch.de/webpack-setup-tutorial/)
+  - [setup babel](https://www.robinwieruch.de/webpack-babel-setup-tutorial/)
+  - [react app](https://www.robinwieruch.de/minimal-react-webpack-babel-setup)
 
 ## **Question Encountered**
 
@@ -32,4 +44,10 @@
 
 ## **Discussion**
 
-## **Exercises** (Optional)
+## **Project links**
+
+[Cathy](~~)
+
+[Arhtur](~~)
+
+[Hao](~~)

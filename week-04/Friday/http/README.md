@@ -13,9 +13,13 @@
 
 ## **Question need to solve**
 
+- usage of each method
+- what are status code categories
 
 ## **Key Concepts**
 
+- http methods
+- RESTful
 
 ## **Materials / Study Note**
 
