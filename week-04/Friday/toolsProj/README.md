@@ -13,6 +13,10 @@
 - jest, enzyme
 - express
 
+> **Suggested order**:
+>
+> - init JS project
+
 ## **Goal**
 
 - [ ] package.json - understand dependencies vs devDependencies vs peerDependencies
@@ -23,8 +27,11 @@
 
 ## **Materials / Study Note**
 
-- [阮一峰：理解RESTful架构](http://www.ruanyifeng.com/blog/2011/09/restful.html)
-- [阮一峰：RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
+- react app setup series
+  - [init JS project with npm](https://www.robinwieruch.de/javascript-project-setup-tutorial)
+  - [setup webpack proj](https://www.robinwieruch.de/webpack-setup-tutorial/)
+  - [setup babel](https://www.robinwieruch.de/webpack-babel-setup-tutorial/)
+  - [react app](https://www.robinwieruch.de/minimal-react-webpack-babel-setup)
 
 ## **Question Encountered**
 
