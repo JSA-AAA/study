@@ -2,7 +2,7 @@
 
 ## **Required Topics**
 
->**Required to create and configure a React project without create-react-app**
+>**Required to create and configure a React app without create-react-app**
 
 ### **Must Include**
 
@@ -11,17 +11,22 @@
 - webpack
 - eslint
 - jest, enzyme
-- express
+- express(for study only, no trequired in project)
 
 > **Suggested order**:
 >
 > - init JS project
+> - add later, not totally sure about the best practice procedures now
 
 ## **Goal**
 
 - [ ] understand dependencies, devDependencies, peerDependencies
+- [ ] follow the logic and steps of create a react app, study required dependencies on each step
 
 ## **Question need to solve**
+
+- what is babel, webpack used for and how to use them?
+- how to add eslint check for JS project
 
 ## **Key Concepts**
 
