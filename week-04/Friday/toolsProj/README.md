@@ -19,7 +19,7 @@
 
 ## **Goal**
 
-- [ ] package.json - understand dependencies vs devDependencies vs peerDependencies
+- [ ] understand dependencies, devDependencies, peerDependencies
 
 ## **Question need to solve**
 
@@ -39,4 +39,10 @@
 
 ## **Discussion**
 
-## **Exercises** (Optional)
+## **Project links**
+
+[Cathy](~~)
+
+[Arhtur](~~)
+
+[Hao](~~)
