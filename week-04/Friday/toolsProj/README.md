@@ -19,7 +19,15 @@
 > - add later, not totally sure about the best practice procedures now
 
 ## **Goal**
-
+- [ ] 实现的功能可以很简单，只要有基本的增删查改（CRUD)即可。
+- [ ] generate coverage report
+- [ ] 用express实现4个API， method分别是GET\POST\PUT\DELETE。并且在前端成功调用。
+- [ ] eslint如何配置自己的规则？
+- [ ] babel配置中的preset用于设置什么？
+- [ ] webpack中的output用于配置什么？
+- [ ] webpack的loader和plugin分别是什么，有什么区别？
+- [ ] webpack中如何开启热更新（hot-reload)?
+- [ ] webpack中的sourcemap有什么用？
 - [ ] understand dependencies, devDependencies, peerDependencies
 - [ ] follow the logic and steps of create a react app, study required dependencies on each step
 

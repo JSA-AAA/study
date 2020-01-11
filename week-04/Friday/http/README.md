@@ -9,12 +9,21 @@
 - restful（什么样算符合restful ，eg.这个API是否符合restful） 
 
 ## **Goal**
+- 发送请求的用户通过了身份验证，但是没有当前操作的权限时，应该返回什么状态码？
+- 更新应该用什么method
+- 以下API符合restful吗？为什么? 怎么改成符合restful
+  - （更新用户信息） POST /users/1/updateUserDetail 
+  - （获取用户详情） POST /users/1/getUserDetail
 
-
-## **Question need to solve**
+## **Question need to answer**
 
 - usage of each method
 - what are status code categories
+- 发送请求的用户通过了身份验证，但是没有当前操作的权限时，应该返回什么状态码？
+- 更新应该用什么method
+- 以下API符合restful吗？为什么? 怎么改成符合restful
+  - （更新用户信息） POST /users/1/updateUserDetail 
+  - （获取用户详情） POST /users/1/getUserDetail
 
 ## **Key Concepts**
 
