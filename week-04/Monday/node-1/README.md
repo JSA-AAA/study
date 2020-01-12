@@ -12,12 +12,12 @@
 
 ## **Goal**
 
-- [ ] Understand what is Node.js
-- [ ] Able to use common console functions
-- [ ] Understand Node.js EventEmitter api
-- [ ] how to register events?
-- [ ] Export/Import type
-- [ ] Understand Node event loop and the execution order
+- [X] Understand what is Node.js
+- [X] Able to use common console functions
+- [X] Understand Node.js EventEmitter api
+- [X] how to register events?
+- [X] Export/Import type
+- [X] Understand Node event loop and the execution order
 
 ## **Key Concepts**
 
@@ -59,13 +59,18 @@
 
 >*Note: check after resolved by yourself or during discussion*
 
-- [ ] how to receive return value of a event callback function?
-- [ ] what is the value of `this` in event callbacks?
-- [ ] what are the differences between setImmediate and setTimeout?
-- [ ] node.js can have multiple instances of EventEmitter, and runs in one process, but process is also a instance of EventEmitter - confusing
+- [X] how to receive return value of a event callback function?
+- [X] what is the value of `this` in event callbacks?
+- [X] what are the differences between setImmediate and setTimeout?
+- [X] node.js can have multiple instances of EventEmitter, and runs in one process, but process is also a instance of EventEmitter - confusing
 - [ ] In NodeJS event loop, when poll step back to timer step?
 
 ## **Discussion**
+
+- return value of a event callback will be ignored, and is also not recommended to have a return value in callbacks.
+- for normal callback function defined with `function` keyword, `this` refers to the event itself, for arrow function callback, `this` is the environment of where the event is defined.
+- [setImmediate Vs. setTimeout](http://voidcanvas.com/setimmediate-vs-nexttick-vs-settimeout/)
+- EventEmitter instances can contain multiple EventEmitter instances
 
 ## **Exercises** ( Optional )
 

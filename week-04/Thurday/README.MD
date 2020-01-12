@@ -27,13 +27,13 @@
 
 ## **Goal**
 
-- [ ] What can cause reflow and repaint
-- [ ] Relationship between reflow and repaint
-- [ ] What is DocumentFragment
-- [ ] What is event delegation
-- [ ] Base on above, list some performance optimization way
-- [ ] what is memory leak
-- [ ] how JavaScript does garbage collection(GC)
+- [X] What can cause reflow and repaint
+- [X] Relationship between reflow and repaint
+- [X] What is DocumentFragment
+- [X] What is event delegation
+- [X] Base on above, list some performance optimization way
+- [X] what is memory leak
+- [X] how JavaScript does garbage collection(GC)
 
 ## **Question need to solve**
 
@@ -80,20 +80,20 @@
 
 > _Note: check after resolved by yourself or during discussion_
 
-- [ ] 什么是垃圾?
+- [X] 什么是垃圾?
   - answer: 一般来说没有被引用的对象就是垃圾,就是要被清除,有个例外如果几个对象引用形成一个环,互相引用,但根访问不到它们,这几个对象也是垃圾,也要被清除.
 
-- [ ] 什么是内存泄漏?
+- [X] 什么是内存泄漏?
   - answer: 程序的运行需要内存,只要程序提出要求,操作系统或者运行是就必须供给内存.对于持续运行的服务进程,必须及时释放内存,否则,内存占用越来越高,轻则影响系统性能,重则导致进程崩溃.不再用到的内存,没有及时释放,就叫做内存泄漏.
-- [ ] Can we explicitly or programmatically trigger garbage collection in JavaScript?
+- [X] Can we explicitly or programmatically trigger garbage collection in JavaScript?
   - answer: 理解生命周期,强行跳入回收步骤.(待定)
-- [ ] CSS 和内部JS script放置问题:
+- [X] CSS 和内部JS script放置问题:
   - answer: 内部的js也叫本页面的JS脚本,内部的js一般放到body内,这样做的目的有很多,不阻塞页面的加载(事实上js会被缓存).可以直接在js里操作dom,这时候dom是准备好的,即保证js运行时dom是存在的.有的人建议的方式是放在页面底部，监听window.onload 或 readystate 来触发js.head 内的 JavaScript 需要执行结束才开始渲染 body,所以尽量不要将 JS 文件放在 head 内.可以选择在 document 完成时,或者特定区块后引入和执行 JavaScript.
 
-- [ ] 改变元素内部文字font size会重排吗?
+- [X] 改变元素内部文字font size会重排吗?
   - answer: 如果不应该box的size则不会影响.(box如果是block， float则不会，如果是inline则会)
 
-- [ ] 如果放在head里JS script 要给一个元素添加监听器, 可能存在元素还没有加载出来，进而导致监听器添加失败吗？
+- [X] 如果放在head里JS script 要给一个元素添加监听器, 可能存在元素还没有加载出来，进而导致监听器添加失败吗？
   -answer: 无法加载，会失败。
 
 - [ ] css和dom tree的构建是同步还是异步？

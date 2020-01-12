@@ -28,22 +28,22 @@
 
 ## **Goal**
 
-- [ ] how css works in webpage?
-- [ ] effect/usage of each sub-topic
-- [ ] what is box model
-- [ ] position values and usage
-- [ ] the differences between inline and block
-- [ ] what attributes (minum 2) are useless for inline
-- [ ] 父级是 flex，子级可以是 block 或者 inline 吗
-- [ ] 用 flex 实现横向和纵向居中
-- [ ] 怎么样只 clear 左边的浮动(例子)
-- [ ] 伪类和伪元素的区别是什么
-- [ ] css 选择器的优先级的规则
-- [ ] 长度单位 vw，vh，em，rem 是什么，什么时候可以用 rem（calc 是什么）
-- [ ] 媒体查询
-  - [ ] 可以用于区分设备吗
-  - [ ] 写个例子，横屏显示红色文字，竖屏显示绿色文字
-  - [ ] 写个例子，浏览器宽度大于 1000 像素时显示红色文字，小于 1000 显示绿色文字
+- [X] how css works in webpage?
+- [X] effect/usage of each sub-topic
+- [X] what is box model
+- [X] position values and usage
+- [X] the differences between inline and block
+- [X] what attributes (minum 2) are useless for inline
+- [X] 父级是 flex，子级可以是 block 或者 inline 吗
+- [X] 用 flex 实现横向和纵向居中
+- [X] 怎么样只 clear 左边的浮动(例子)
+- [X] 伪类和伪元素的区别是什么
+- [X] css 选择器的优先级的规则
+- [X] 长度单位 vw，vh，em，rem 是什么，什么时候可以用 rem（calc 是什么）
+- [X] 媒体查询
+  - [X] 可以用于区分设备吗
+  - [X] 写个例子，横屏显示红色文字，竖屏显示绿色文字
+  - [X] 写个例子，浏览器宽度大于 1000 像素时显示红色文字，小于 1000 显示绿色文字
 
 ## **Question need to solve**
 
@@ -152,5 +152,19 @@
 - [x] Flex 布局以后，子元素的 float、clear 和 vertical-align 属性将失效? - 经测试，是的
 
 ## **Discussion**
+
+- [ ] Is there css tree? 
+- [ ] Which happened first? Parse CSS or render DOM tree 
+- [ ] Is margin included in width calculation for Box model? -> no
+- [ ] What are included in width/height calculation 
+- [ ] How to move multiple blocks into a line? -> float blocks, add display:flex in parent element.
+- [ ] Can we set margin for flex child elements? -> yes
+- [ ] Are block/inline added for flex child working? ->all children elements will be block, how they positioned inside a flex box depends how flex displays children 
+- [ ] Where to use clear, what does clear do?(question raised for Goal: how to clear only left flow?)
+- [ ] Float and normal flow
+- [ ] Is clear float only affecting immediate neighbor, or n-th neighbors?
+- [ ] Use scenario of rem? -> for example: use with media to have different style for different screenSize, etc..
+- [ ] Box model（再看一些）：border-box， content-box只算到各自（border，content）的的为止。
+- [ ] position添加z-index等属性内容。 
 
 ## **Exercises** ( Optional )
