@@ -72,4 +72,4 @@
 
 [Arhtur](https://github.com/eleven032/React-App-WithoutCRA)
 
-[Hao](~~)
+[Hao](https://github.com/yuhao3570/react-no-cra)
