@@ -43,5 +43,20 @@
 
 ## **Discussion**
 
+- 发送请求的用户通过了身份验证，但是没有当前操作的权限时，应该返回什么状态码？
+  - A 403 error response indicates that the client’s request is formed correctly, but the REST API refuses to honor it, i.e. the user does not have the necessary permissions for the resource. A 403 response is not a case of insufficient client credentials; that would be 401 (“Unauthorized”).
+- 更新应该用什么method
+  - Put
+- 以下API符合restful吗？为什么? 怎么改成符合restful
+  - （更新用户信息） POST /users/1/updateUserDetail 
+  - （获取用户详情） POST /users/1/getUserDetail
+    - 不符合
+    - 1. 选择的http method不当.
+    - 2. api endpoint表达的方式不符合restful规则(不可以用动词).
+    - 3. updateUserDetail和getUserDetail不需要.
+- what does it mean when we say a http method is safe, indempotent, cacheable
+  - 
+
+
 
 ## **Exercises** ( Optional )
