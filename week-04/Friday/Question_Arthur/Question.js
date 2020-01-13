@@ -2,7 +2,6 @@
 //提示：闭包
 
 
-
 //What is the result?
 Promise.resolve(1)
   .then(2)
