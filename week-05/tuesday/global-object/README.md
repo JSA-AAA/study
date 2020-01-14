@@ -23,6 +23,8 @@
 
 >*Note: check after resolved by yourself or during discussion*
 
+- [ ] 怎么理解这句话“在所有代码执行之前，作用域中就存在两个内置对象：Global和Math。在大多数ECMAScript实现中都不能直接访问Global对象，不过，Web浏览器实现了承担该角色的window对象。全局变量和函数都是Globla对象的属性”
+
 
 ## **Discussion**
 
