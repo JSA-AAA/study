@@ -17,6 +17,7 @@
 
 ## **Key Concepts**
 
+- 衡量的两个途径： 指标 - metrics 和日志 - logs
 
 ## **Materials / Study Note**
 
