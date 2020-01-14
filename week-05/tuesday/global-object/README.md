@@ -6,7 +6,7 @@
 
 ## **Goal**
 
-- understand what id Global Object and its use cases
+- understand what is Global Object and its use cases
 
 ## **Question need to solve**
 
