@@ -20,6 +20,11 @@
 - usage of each method
 - what are status code categories
 - 发送请求的用户通过了身份验证，但是没有当前操作的权限时，应该返回什么状态码？
+  - 1:请求收到,仍在进行.
+  - 2xx:成功.
+  - 3xx:重定向,需要进一步操作.（303重定向，304缓存）
+  - 4xx:请求失败.
+  - 5xx:服务端失败.
 - 更新应该用什么method
 - 以下API符合restful吗？为什么? 怎么改成符合restful
   - （更新用户信息） POST /users/1/updateUserDetail 
