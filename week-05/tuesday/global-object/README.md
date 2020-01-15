@@ -28,5 +28,6 @@
 
 ## **Discussion**
 
-
+- [Questions: Hao](assets/question_Hao.js)
+- 
 ## **Exercises** ( Optional )

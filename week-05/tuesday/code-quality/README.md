@@ -22,6 +22,7 @@
 ## **Materials / Study Note**
 
 - [Clean Code JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
+- [why is Code Quality such a big deal](https://medium.com/@cleverti/why-is-code-quality-such-a-big-deal-for-developers-91bdace85d44)
 
 ## **Question Encountered**
 
@@ -30,5 +31,6 @@
 
 ## **Discussion**
 
+- [Questions: Hao](assets/question_Hao.js)
 
 ## **Exercises** ( Optional )
