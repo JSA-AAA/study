@@ -7,12 +7,12 @@
 - Console
 - ECMAScript Modules
 - **Events - 重要**
-- **Process - 重要**
+- **Process - 重要**(edit to create merge conflict intentionally)
 - **Event loop - 重要**
 
 ## **Goal**
 
-- [X] Understand what is Node.js
+- [X] Under(edit to create merge conflict intentionally)stand what is Node.js
 - [X] Able to use common console functions
 - [X] Understand Node.js EventEmitter api
 - [X] how to register events?
