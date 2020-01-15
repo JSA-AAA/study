@@ -25,12 +25,9 @@
 
 
 ## **Discussion**
-<<<<<<< HEAD
 
 - [Questions: Hao](assets/question_Hao.js)
-=======
  - commonJS 服务器端
  - amd 浏览器
->>>>>>> design pattern example_Cathy
 
 ## **Exercises** ( Optional )

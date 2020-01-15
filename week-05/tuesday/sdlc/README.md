@@ -11,12 +11,7 @@
 
 
 ## **Key Concepts**
-<<<<<<< HEAD
-
-- process: 1. planning 2. analysis 3.design 4.implementation 5.testing&integration 6.maintenance
-=======
 - process: 1. planning 2. requirement analysis 3.design 4.implementation 5.testing&integration 6.maintenance
->>>>>>> design pattern example_Cathy
 
 ## **Materials / Study Note**
 
@@ -30,13 +25,10 @@
 
 
 ## **Discussion**
-<<<<<<< HEAD
 
 - [Questions: Hao](assets/question_Hao.js)
-=======
 - lifecycle concepts
  - 
->>>>>>> design pattern example_Cathy
 
 ## **Exercises** ( Optional )
 - [Arthur](assets/Question_Arthur.js)
