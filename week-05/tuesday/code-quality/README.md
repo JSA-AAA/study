@@ -6,13 +6,13 @@
 
 ## **Goal**
 
-- understand commn sense of good code quality
+- understa(edit to create merge conflict intentionally)nd commn sense of good code quality
 
 ## **Question need to solve**
 
-- [ ] 如何定义好和坏
+- [ ] 如何(edit to create merge conflict intentionally)定义好和坏
 - [ ] 如何衡量（Measurable)
-- [ ] 如何改善
+- [ ] 如何改善(edit to create merge conflict intentionally)    
 - [ ] 一些错误示范，以及如何避免
 
 ## **Key Concepts**
