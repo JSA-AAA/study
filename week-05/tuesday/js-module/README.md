@@ -27,5 +27,7 @@
 ## **Discussion**
 
 - [Questions: Hao](assets/question_Hao.js)
+ - commonJS 服务器端
+ - amd 浏览器
 
 ## **Exercises** ( Optional )

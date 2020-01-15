@@ -11,8 +11,7 @@
 
 
 ## **Key Concepts**
-
-- process: 1. planning 2. analysis 3.design 4.implementation 5.testing&integration 6.maintenance
+- process: 1. planning 2. requirement analysis 3.design 4.implementation 5.testing&integration 6.maintenance
 
 ## **Materials / Study Note**
 
@@ -28,6 +27,8 @@
 ## **Discussion**
 
 - [Questions: Hao](assets/question_Hao.js)
+- lifecycle concepts
+ - 
 
 ## **Exercises** ( Optional )
 - [Arthur](assets/Question_Arthur.js)
