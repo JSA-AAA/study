@@ -17,7 +17,7 @@
 
 
 ## **Materials / Study Note**
-
+- [Global Object Introduction](https://www.w3cschool.cn/nodejs/nodejs-global-object.html)
 
 ## **Question Encountered**
 
@@ -31,3 +31,4 @@
 - [Questions: Hao](assets/question_Hao.js)
 - 
 ## **Exercises** ( Optional )
+- [Arthur](assets/Question_Arthur.js)
