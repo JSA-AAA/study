@@ -9,4 +9,20 @@ Promise.resolve(1)
   .then(console.log)
 
 
-//
+
+//Show us the output
+setTimeout(()=>{
+  console.log('setTimeout')
+})
+let p1 = new Promise((resolve)=>{
+  console.log('Promise1')
+  resolve('Promise2')
+})
+p1.then((res)=>{
+  console.log(res)
+})
+console.log(1)
+
+
+//翻转一个字符
+//Eg.input "abcd" => output "dcba"

@@ -13,4 +13,24 @@ function delayPrint() {
 
 delayPrint();
 
+
+
 //2.
+1
+
+
+
+//3.
+Promise1
+1
+Promise2
+setTimeout
+
+
+
+//4.
+str="jQuery";
+str = str.split("");
+str = str.reverse();
+str = str.join("");
+alert(str);

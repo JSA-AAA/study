@@ -6,7 +6,7 @@
 
 ## **Goal**
 
-- understand commn sense of good code quality
+- understand common sense of good code quality
 
 ## **Question need to solve**
 
@@ -23,9 +23,9 @@
 
 - [Clean Code JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
 - [why is Code Quality such a big deal](https://medium.com/@cleverti/why-is-code-quality-such-a-big-deal-for-developers-91bdace85d44)
-
+- [Introduction of Code quality](https://www.perforce.com/blog/sca/what-code-quality-and-how-improve-it)
+  
 ## **Question Encountered**
-
 >*Note: check after resolved by yourself or during discussion*
 
 
@@ -34,3 +34,4 @@
 - [Questions: Hao](assets/question_Hao.js)
 
 ## **Exercises** ( Optional )
+- [Arthur](assets/Question_Arthur.js)
