@@ -21,16 +21,21 @@
   - can we do it?
   - Are design patterns exclusive?
   - is it recommended?
+- name some real instantiations of each design patterns
 
 ## **Key Concepts**
 
 
 ## **Materials / Study Note**
 
+- [Pub-sub pattern in JS](https://medium.com/@thebabscraig/javascript-design-patterns-part-2-the-publisher-subscriber-pattern-8fe07e157213)
+- [Pub-sub vs. Observer](https://hackernoon.com/observer-vs-pub-sub-pattern-50d3b27f838c)
+- [redux design pattern](https://jobs.zalando.com/tech/blog/design-patterns-redux/?gh_src=4n3gxh1)
 
 ## **Question Encountered**
 
 - what is namespace in singleton pattern?
+- Is redux store an instance of Sub-Pub pattern?
 
 ## **Discussion**
 
