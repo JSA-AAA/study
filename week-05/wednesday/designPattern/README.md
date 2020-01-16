@@ -21,7 +21,7 @@
   - can we do it?
   - Are design patterns exclusive?
   - is it recommended?
-- what are real instantiations of each design-pattern?
+- name some real instantiations of each design patterns
 
 ## **Key Concepts**
 
