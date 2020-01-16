@@ -27,7 +27,6 @@
 ## **Discussion**
 
 - [Questions: Hao](assets/question_Hao.js)
- - commonJS 服务器端
- - amd 浏览器
+- commonJS 常用于服务器端，AMD常用于用户端，浏览器端则通常使用commonJS 和 AMD.
 
 ## **Exercises** ( Optional )

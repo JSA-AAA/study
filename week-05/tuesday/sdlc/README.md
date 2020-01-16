@@ -28,7 +28,11 @@
 
 - [Questions: Hao](assets/question_Hao.js)
 - lifecycle concepts
- - 
+
+-  how do you think Agile model is invented at first place?
+    - one clear goal may not fit in increasingly complicated world and lead to project failure.
+- bug cost in Agile and waterfall?
+    - bugs found in later phase in waterfall carries way higher cost. Imagine a life-threatening bug exposed in testing phase, or a change of requirement at later stage.
 
 ## **Exercises** ( Optional )
 - [Arthur](assets/Question_Arthur.js)
