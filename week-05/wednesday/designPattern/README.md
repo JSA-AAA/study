@@ -36,3 +36,6 @@
 
 
 ## **Exercises** ( Optional )
+- [Arthur_unitTest](../assets/Arthur/unitTest-demo/test/shuffle_test.js)
+- [Arthur_Singleton](../assets/Arthur/DesignPattern/Singleton.js)
+- [Arthur_Strategy](../assets/Arthur/DesignPattern/Strategy.js)
